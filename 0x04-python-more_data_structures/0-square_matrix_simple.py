@@ -6,6 +6,3 @@ def square_matrix_simple(matrix=[]):
         new_matrix[i] = list(map(lambda x: x**2, matrix[i]))
 
     return (new_matrix)
-
-#def square_matrix_simple(matrix=[]):
-#    return list(map(lambda one_d_list: list(map(lambda x: x ** 2), one_d_list)), matrix)
